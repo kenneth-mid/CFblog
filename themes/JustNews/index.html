@@ -51,9 +51,8 @@
 							{{ #widgetMenuList }}
 								<li class="menu-item"><a href="{{ &url }}">{{ &title }}</a></li>
 							{{ /widgetMenuList }}
-						</ul>
-					
-    <script>
+
+							    <script>
         fetch('https://v1.hitokoto.cn')
             .then(response => response.json())
             .then(data => {
@@ -64,6 +63,8 @@
             .catch(console.error);
     </script>
     <div id="hitokoto"><a href="#" target="_blank" id="hitokoto_text">疏影横斜水清浅，暗香浮动月黄昏。</a></div>
+							
+						</ul>
 
 					</nav>
 					<div class="navbar-action pull-right">
